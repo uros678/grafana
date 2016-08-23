@@ -1,0 +1,1656 @@
+{
+  "responses": [
+    {
+      "took": 15,
+      "timed_out": false,
+      "_shards": {
+        "total": 5,
+        "successful": 5,
+        "failed": 0
+      },
+      "hits": {
+        "total": 986,
+        "max_score": 0,
+        "hits": []
+      },
+      "aggregations": {
+        "3": {
+          "doc_count_error_upper_bound": 5,
+          "sum_other_doc_count": 453,
+          "buckets": [
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 3
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 4
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 5
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 6
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 9
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 4
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 9
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 4
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 4
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 7
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 5
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 6
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 3
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 10
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 5
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 55
+                  }
+                ]
+              },
+              "key": "0_HETA Network",
+              "doc_count": 144
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 8
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 3
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 9
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 11
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 11
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 10
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 4
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 8
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 4
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 8
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 9
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 3
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 22
+                  }
+                ]
+              },
+              "key": "2_Process Landscape of HETA Network",
+              "doc_count": 115
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 33
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 11
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 34
+                  }
+                ]
+              },
+              "key": "1 HETA Network Organisation_Overview",
+              "doc_count": 85
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 4
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 13
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 15
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 18
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 6
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 5
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 14
+                  }
+                ]
+              },
+              "key": "3_HETA Network Regulations",
+              "doc_count": 78
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 5
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 3
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 10
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 5
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 2
+                  }
+                ]
+              },
+              "key": "Manage the sale",
+              "doc_count": 30
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 10
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 8
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 1
+                  }
+                ]
+              },
+              "key": "Provide IT",
+              "doc_count": 20
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 3
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 6
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 3
+                  }
+                ]
+              },
+              "key": "GP 2 Compliance Policy",
+              "doc_count": 16
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 11
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 4
+                  }
+                ]
+              },
+              "key": "Steer countries & manage participations",
+              "doc_count": 15
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 12
+                  }
+                ]
+              },
+              "key": "BosniaHercegovina HBIH Pb",
+              "doc_count": 14
+            },
+            {
+              "2": {
+                "buckets": [
+                  {
+                    "key_as_string": "1464652800000",
+                    "key": 1464652800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464739200000",
+                    "key": 1464739200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464825600000",
+                    "key": 1464825600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464912000000",
+                    "key": 1464912000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1464998400000",
+                    "key": 1464998400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465084800000",
+                    "key": 1465084800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465171200000",
+                    "key": 1465171200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465257600000",
+                    "key": 1465257600000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1465344000000",
+                    "key": 1465344000000,
+                    "doc_count": 3
+                  },
+                  {
+                    "key_as_string": "1465430400000",
+                    "key": 1465430400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465516800000",
+                    "key": 1465516800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465603200000",
+                    "key": 1465603200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465689600000",
+                    "key": 1465689600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465776000000",
+                    "key": 1465776000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1465862400000",
+                    "key": 1465862400000,
+                    "doc_count": 5
+                  },
+                  {
+                    "key_as_string": "1465948800000",
+                    "key": 1465948800000,
+                    "doc_count": 1
+                  },
+                  {
+                    "key_as_string": "1466035200000",
+                    "key": 1466035200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466121600000",
+                    "key": 1466121600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466208000000",
+                    "key": 1466208000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466294400000",
+                    "key": 1466294400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466380800000",
+                    "key": 1466380800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466467200000",
+                    "key": 1466467200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466553600000",
+                    "key": 1466553600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466640000000",
+                    "key": 1466640000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466726400000",
+                    "key": 1466726400000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466812800000",
+                    "key": 1466812800000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466899200000",
+                    "key": 1466899200000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1466985600000",
+                    "key": 1466985600000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467072000000",
+                    "key": 1467072000000,
+                    "doc_count": 0
+                  },
+                  {
+                    "key_as_string": "1467158400000",
+                    "key": 1467158400000,
+                    "doc_count": 2
+                  },
+                  {
+                    "key_as_string": "1467244800000",
+                    "key": 1467244800000,
+                    "doc_count": 1
+                  }
+                ]
+              },
+              "key": "GP 1 HETA Regulation Structure",
+              "doc_count": 14
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

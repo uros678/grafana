@@ -1,0 +1,54 @@
+{
+  "size": 0,
+  "query": {
+    "filtered": {
+      "query": {
+        "query_string": {
+          "analyze_wildcard": true,
+          "query": "*"
+        }
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "range": {
+                "@timestamp": {
+                  "gte": "1464732000000",
+                  "lte": "1467323999999",
+                  "format": "epoch_millis"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "aggs": {
+    "3": {
+      "terms": {
+        "field": "newmessage.name",
+        "size": 10,
+        "order": {
+          "_count": "desc"
+        }
+      },
+      "aggs": {
+        "2": {
+          "date_histogram": {
+            "interval": "1d",
+            "field": "@timestamp",
+            "min_doc_count": 0,
+            "extended_bounds": {
+              "min": "1464732000000",
+              "max": "1467323999999"
+            },
+            "format": "epoch_millis"
+          },
+          "aggs": {}
+        }
+      }
+    }
+  }
+}
