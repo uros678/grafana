@@ -290,7 +290,7 @@ function (angular, _, moment, kbn, ElasticQueryBuilder, IndexPattern, ElasticRes
       return this._post('_msearch?search_type=count', esQuery).then(function(res) {
         var buckets = res.responses[0].aggregations["1"].buckets;
         return _.map(buckets, function(bucket) {
-          return {text: bucket.key, value: bucket.key};
+          return {text: bucket.key_as_string || bucket.key, value: bucket.key};
         });
       });
     };
