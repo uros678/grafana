@@ -1,0 +1,640 @@
+{
+  "took": 13,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1530,
+    "max_score": 0,
+    "hits": []
+  },
+  "aggregations": {
+    "2": {
+      "buckets": [
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 24,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 9
+              },
+              {
+                "key": "3_HETA Network Regulations",
+                "doc_count": 8
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 6
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 6
+              },
+              {
+                "key": "GP 10-2016 Risk Policy",
+                "doc_count": 4
+              }
+            ]
+          },
+          "key_as_string": "2016-07-01T00:00:00.000+02:00",
+          "key": 1467324000000,
+          "doc_count": 57
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 21,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 18
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 11
+              },
+              {
+                "key": "Manage and monitor the case",
+                "doc_count": 11
+              },
+              {
+                "key": "Steer risk management",
+                "doc_count": 10
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 9
+              }
+            ]
+          },
+          "key_as_string": "2016-07-04T00:00:00.000+02:00",
+          "key": 1467583200000,
+          "doc_count": 80
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 62,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 17
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 7
+              },
+              {
+                "key": "Manage and monitor the case",
+                "doc_count": 5
+              },
+              {
+                "key": "Manage the sale",
+                "doc_count": 5
+              },
+              {
+                "key": "Steer risk management",
+                "doc_count": 5
+              }
+            ]
+          },
+          "key_as_string": "2016-07-05T00:00:00.000+02:00",
+          "key": 1467669600000,
+          "doc_count": 101
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 79,
+            "buckets": [
+              {
+                "key": "Manage assets for real estates and movables",
+                "doc_count": 27
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 16
+              },
+              {
+                "key": "Initiate the sale for movables",
+                "doc_count": 16
+              },
+              {
+                "key": "Manage and monitor the case",
+                "doc_count": 15
+              },
+              {
+                "key": "Manage case risk assessment",
+                "doc_count": 13
+              }
+            ]
+          },
+          "key_as_string": "2016-07-06T00:00:00.000+02:00",
+          "key": 1467756000000,
+          "doc_count": 166
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 19,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 7
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 7
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 4
+              },
+              {
+                "key": "Serbia HARSE Pb",
+                "doc_count": 4
+              },
+              {
+                "key": "Manage and monitor the case",
+                "doc_count": 3
+              }
+            ]
+          },
+          "key_as_string": "2016-07-07T00:00:00.000+02:00",
+          "key": 1467842400000,
+          "doc_count": 44
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 9,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 7
+              },
+              {
+                "key": "Manage legal services",
+                "doc_count": 3
+              },
+              {
+                "key": "Participation View HETA Network",
+                "doc_count": 3
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 2
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-07-08T00:00:00.000+02:00",
+          "key": 1467928800000,
+          "doc_count": 25
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 9,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 13
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 6
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 6
+              },
+              {
+                "key": "Manage and monitor the case",
+                "doc_count": 4
+              },
+              {
+                "key": "BosniaHercegovina Functional Pb",
+                "doc_count": 2
+              }
+            ]
+          },
+          "key_as_string": "2016-07-11T00:00:00.000+02:00",
+          "key": 1468188000000,
+          "doc_count": 40
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 20,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 14
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 11
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 7
+              },
+              {
+                "key": "3_HETA Network Regulations",
+                "doc_count": 4
+              },
+              {
+                "key": "Bosnia Participations",
+                "doc_count": 4
+              }
+            ]
+          },
+          "key_as_string": "2016-07-12T00:00:00.000+02:00",
+          "key": 1468274400000,
+          "doc_count": 62
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 10,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 9
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 9
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 5
+              },
+              {
+                "key": "Manage balance sheet",
+                "doc_count": 2
+              },
+              {
+                "key": "3_HETA Network Regulations",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-07-13T00:00:00.000+02:00",
+          "key": 1468360800000,
+          "doc_count": 36
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 84,
+            "buckets": [
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 20
+              },
+              {
+                "key": "0_HETA Network",
+                "doc_count": 15
+              },
+              {
+                "key": "Manage assets for real estates and movables",
+                "doc_count": 15
+              },
+              {
+                "key": "Perform financial management",
+                "doc_count": 10
+              },
+              {
+                "key": "Steer the portfolios",
+                "doc_count": 7
+              }
+            ]
+          },
+          "key_as_string": "2016-07-14T00:00:00.000+02:00",
+          "key": 1468447200000,
+          "doc_count": 151
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 8,
+            "buckets": [
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 19
+              },
+              {
+                "key": "0_HETA Network",
+                "doc_count": 12
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 4
+              },
+              {
+                "key": "Perform operative case management ",
+                "doc_count": 3
+              },
+              {
+                "key": "Manage and monitor the case",
+                "doc_count": 2
+              }
+            ]
+          },
+          "key_as_string": "2016-07-15T00:00:00.000+02:00",
+          "key": 1468533600000,
+          "doc_count": 48
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 20,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 17
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 6
+              },
+              {
+                "key": "Budget and plan",
+                "doc_count": 6
+              },
+              {
+                "key": "Manage the sale",
+                "doc_count": 6
+              },
+              {
+                "key": "Manage loan single-sale process_complete",
+                "doc_count": 5
+              }
+            ]
+          },
+          "key_as_string": "2016-07-18T00:00:00.000+02:00",
+          "key": 1468792800000,
+          "doc_count": 60
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 47,
+            "buckets": [
+              {
+                "key": "Manage the sale",
+                "doc_count": 15
+              },
+              {
+                "key": "0_HETA Network",
+                "doc_count": 11
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 11
+              },
+              {
+                "key": "Manage the sale for movables",
+                "doc_count": 6
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 5
+              }
+            ]
+          },
+          "key_as_string": "2016-07-19T00:00:00.000+02:00",
+          "key": 1468879200000,
+          "doc_count": 95
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 72,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 33
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 27
+              },
+              {
+                "key": "Manage the sale",
+                "doc_count": 10
+              },
+              {
+                "key": "Manage legal services",
+                "doc_count": 9
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 7
+              }
+            ]
+          },
+          "key_as_string": "2016-07-20T00:00:00.000+02:00",
+          "key": 1468965600000,
+          "doc_count": 158
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 45,
+            "buckets": [
+              {
+                "key": "Manage case risk assessment",
+                "doc_count": 33
+              },
+              {
+                "key": "0_HETA Network",
+                "doc_count": 20
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 16
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 15
+              },
+              {
+                "key": "Perform corporate communication & marketing",
+                "doc_count": 12
+              }
+            ]
+          },
+          "key_as_string": "2016-07-21T00:00:00.000+02:00",
+          "key": 1469052000000,
+          "doc_count": 141
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 39,
+            "buckets": [
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 16
+              },
+              {
+                "key": "0_HETA Network",
+                "doc_count": 11
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 9
+              },
+              {
+                "key": "Calculate specific risk provision individually impaired (SRPii)",
+                "doc_count": 8
+              },
+              {
+                "key": "Perform operative case management ",
+                "doc_count": 5
+              }
+            ]
+          },
+          "key_as_string": "2016-07-22T00:00:00.000+02:00",
+          "key": 1469138400000,
+          "doc_count": 88
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 12,
+            "buckets": [
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 13
+              },
+              {
+                "key": "0_HETA Network",
+                "doc_count": 9
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 8
+              },
+              {
+                "key": "Perform operative case management ",
+                "doc_count": 7
+              },
+              {
+                "key": "Austria Participations",
+                "doc_count": 2
+              }
+            ]
+          },
+          "key_as_string": "2016-07-25T00:00:00.000+02:00",
+          "key": 1469397600000,
+          "doc_count": 51
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 27,
+            "buckets": [
+              {
+                "key": "3_HETA Network Regulations",
+                "doc_count": 11
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 9
+              },
+              {
+                "key": "0_HETA Network",
+                "doc_count": 7
+              },
+              {
+                "key": "Perform operative case management ",
+                "doc_count": 6
+              },
+              {
+                "key": "Participation View HETA Network",
+                "doc_count": 5
+              }
+            ]
+          },
+          "key_as_string": "2016-07-26T00:00:00.000+02:00",
+          "key": 1469484000000,
+          "doc_count": 65
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 2,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 4
+              },
+              {
+                "key": "3_HETA Network Regulations",
+                "doc_count": 4
+              },
+              {
+                "key": "GP 2 Compliance Policy",
+                "doc_count": 2
+              },
+              {
+                "key": "GP 6 IT Policy",
+                "doc_count": 2
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-07-27T00:00:00.000+02:00",
+          "key": 1469570400000,
+          "doc_count": 15
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 24,
+            "buckets": [
+              {
+                "key": "0_HETA Network",
+                "doc_count": 8
+              },
+              {
+                "key": "1 HETA Network Organisation_Overview",
+                "doc_count": 8
+              },
+              {
+                "key": "2_Process Landscape of HETA Network",
+                "doc_count": 3
+              },
+              {
+                "key": "BosniaHercegovina BORA Pb",
+                "doc_count": 2
+              },
+              {
+                "key": "BosniaHercegovina Functional Pb",
+                "doc_count": 2
+              }
+            ]
+          },
+          "key_as_string": "2016-07-28T00:00:00.000+02:00",
+          "key": 1469656800000,
+          "doc_count": 47
+        }
+      ]
+    }
+  }
+}
