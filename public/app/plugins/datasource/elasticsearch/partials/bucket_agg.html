@@ -86,6 +86,26 @@
 		</div>
 	</div>
 
+	<div ng-if="agg.type === 'ipv4_range'">
+		<div class="gf-form-inline offset-width-7" ng-repeat="range in agg.settings.ipv4_range">
+			<div class="gf-form">
+				<label class="gf-form-label width-10">IPv4Range {{$index + 1}}</label>
+				<input type="text" class="gf-form-input max-width-12" ng-model="range.query" spellcheck='false' placeholder="Lucene query" ng-blur="onChangeInternal()">
+			</div>
+			<div class="gf-form">
+				<label class="gf-form-label" ng-if="$first">
+					<a class="pointer" ng-click="addIPv4RangeQuery()"><i class="fa fa-plus"></i></a>
+				</label>
+				<label class="gf-form-label" ng-if="!$first">
+					<a class="pointer" ng-click="removeIPv4RangeQuery(range)"><i class="fa fa-minus"></i></a>
+				</label>
+				<label class="gf-form-label" ng-if="!$first">
+					<a class="pointer" ng-click="addIPv4RangeQuery()"><i class="fa fa-plus"></i></a>
+				</label>
+			</div>
+		</div>
+	</div>
+
 	<div ng-if="agg.type === 'geohash_grid'">
 		<div class="gf-form offset-width-7">
 			<label class="gf-form-label width-10">Precision</label>
@@ -94,5 +114,3 @@
 	</div>
 
 </div>
-
-

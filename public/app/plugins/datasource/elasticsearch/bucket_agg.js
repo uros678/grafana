@@ -64,6 +64,11 @@ function (angular, _, queryDef) {
           $scope.agg.settings.precision = 3;
           break;
         }
+        case 'ipv4_range': {
+          delete $scope.agg.field;
+          $scope.agg.query = '*';
+          break;
+        }
       }
 
       $scope.validateModel();
@@ -133,6 +138,15 @@ function (angular, _, queryDef) {
           settingsLinkText = 'Precision: ' + settings.precision;
           break;
         }
+        case 'ipv4_range': {
+          settings.ipv4_range = settings.ipv4_range || [{query: 'Jello'}];
+          settingsLinkText = _.reduce(settings.ipv4_range, function(memo, value, index) {
+            memo += 'Q' + (index + 1) + '  = ' + value.query + ' ';
+            return memo;
+          }, '');
+          settingsLinkText = 'IPv4 Ranges (' + settings.ipv4_range.length + ')';
+          break;
+        }
       }
 
       $scope.settingsLinkText = settingsLinkText;
@@ -146,6 +160,14 @@ function (angular, _, queryDef) {
 
     $scope.removeFiltersQuery = function(filter) {
       $scope.agg.settings.filters = _.without($scope.agg.settings.filters, filter);
+    };
+
+    $scope.addIPv4RangeQuery = function () {
+      $scope.agg.settings.ipv4_range.push({query: '*'});
+    };
+
+    $scope.removeIPv4RangeQuery = function(range) {
+      $scope.agg.settings.ipv4_range = _.without($scope.agg.settings.ipv4_range, range);
     };
 
     $scope.toggleOptions = function() {

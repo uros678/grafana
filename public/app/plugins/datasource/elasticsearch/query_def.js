@@ -24,6 +24,7 @@ function (_) {
       {text: "Filters",         value: 'filters' },
       {text: "Geo Hash Grid",        value: 'geohash_grid', requiresField: true},
       {text: "Date Histogram",  value: 'date_histogram', requiresField: true},
+      {text: "IPv4 Range", value: 'ipv4_range', requiresField: true},
     ],
 
     orderByOptions: [
