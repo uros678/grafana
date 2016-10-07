@@ -144,7 +144,7 @@ function (angular, _, queryDef) {
             memo += 'Q' + (index + 1) + '  = ' + value.query + ' ';
             return memo;
           }, '');
-          settingsLinkText = 'IPv4 Ranges (' + settings.ipv4_range.length + ')';
+          settingsLinkText = 'IPv4 Ranges';
           break;
         }
       }
