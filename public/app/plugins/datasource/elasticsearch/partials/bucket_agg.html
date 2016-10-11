@@ -90,7 +90,7 @@
 		<div class="gf-form-inline offset-width-7" ng-repeat="range in agg.settings.ipv4_range">
 			<div class="gf-form">
 				<label class="gf-form-label width-10">IPv4Range {{$index + 1}}</label>
-				<input type="text" class="gf-form-input max-width-12" ng-model="range.query" spellcheck='false' placeholder="Lucene query" ng-blur="onChangeInternal()">
+				<input type="text" class="gf-form-input max-width-12" ng-model="range.ipv4_range" spellcheck='false' ng-blur="onChangeInternal()">
 			</div>
 			<div class="gf-form">
 				<label class="gf-form-label" ng-if="$first">

@@ -239,6 +239,8 @@ function (queryDef) {
       };
     }
 
+    console.log(queryDef.query);
+
     query.aggs =  {
       "1": {
         "terms": {

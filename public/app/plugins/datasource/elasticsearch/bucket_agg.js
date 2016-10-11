@@ -65,8 +65,7 @@ function (angular, _, queryDef) {
           break;
         }
         case 'ipv4_range': {
-          delete $scope.agg.field;
-          $scope.agg.query = '*';
+          $scope.agg.field = 'select field';
           break;
         }
       }
@@ -139,11 +138,7 @@ function (angular, _, queryDef) {
           break;
         }
         case 'ipv4_range': {
-          settings.ipv4_range = settings.ipv4_range || [{query: 'Jello'}];
-          settingsLinkText = _.reduce(settings.ipv4_range, function(memo, value, index) {
-            memo += 'Q' + (index + 1) + '  = ' + value.query + ' ';
-            return memo;
-          }, '');
+          settings.ipv4_range = settings.ipv4_range || [{query: ''}];
           settingsLinkText = 'IPv4 Ranges';
           break;
         }
@@ -163,7 +158,7 @@ function (angular, _, queryDef) {
     };
 
     $scope.addIPv4RangeQuery = function () {
-      $scope.agg.settings.ipv4_range.push({query: '*'});
+      $scope.agg.settings.ipv4_range.push({query: ''});
     };
 
     $scope.removeIPv4RangeQuery = function(range) {
